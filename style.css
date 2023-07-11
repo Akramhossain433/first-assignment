@@ -62,56 +62,63 @@ body {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
-    text-align: center;
+    margin: 0 auto;
     width: 594px;
 }
-
-.flower-in-rectangle {
+.pic-with-bg{
     display: flex;
     justify-content: space-between;
+    margin-top: 50px;
 }
-
-.pink-flower-pic {
+.pic-with-bg p{
+    text-align: center;
+    text-decoration: underline;
+}
+.pink-flower img{
     width: 464px;
     height: 538px;
+    background-color: rgba(167, 33, 98, 0.15);
+    object-fit: none;
+    object-position: bottom center;
     border-radius: 300px 300px 0px 0px;
-    background: rgba(167, 33, 98, 0.15);
 }
-.pink-flower-bg{
+.red-flower img{
     width: 464px;
     height: 538px;
+    background-color:  rgba(5, 151, 160, 0.15);
+    object-fit: none;
+    object-position: center;
     border-radius: 300px 300px 0px 0px;
-    background: rgba(5, 151, 160, 0.15);
 }
-.red-flower-pic {
-   padding-bottom: 0;
-}
-
-.yellow-flower-pic {
+.yellow-flower img{
     width: 464px;
     height: 538px;
+    background-color:  rgba(71, 125, 17, 0.15);
+    object-fit: none;
+    object-position: bottom center;
     border-radius: 300px 300px 0px 0px;
-    background: rgba(71, 125, 17, 0.15);
-
 }
-
 /*third section*/
-.third-section{
+.third-section {
     margin: 128px 240px 0;
-    background-color:  rgba(39, 39, 39, 0.05);
+    background-color: rgba(39, 39, 39, 0.05);
 }
-.group-photo{
+
+.group-photo {
     display: flex;
     justify-content: space-between;
     padding: 87px 175px;
 }
-.delivery-man{
+
+.delivery-man {
     text-align: center;
 }
-.hand-flower{
+
+.hand-flower {
     text-align: center;
 }
-.coller{
+
+.coller {
     text-align: center;
 }
 
