@@ -121,6 +121,30 @@ body {
 .coller {
     text-align: center;
 }
+/*new created section*/
+.new-content{
+    margin: 128px 240px 0;
+}
+.new-content h1{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+}
+.new-content span{
+    color: #E55473;
+}
+.pic-1 span{
+    text-decoration: line-through;
+}
+.pic-1{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.pic-1 img{
+    height: 396px;
+}
 
 /*fourth section*/
 
